@@ -95,7 +95,7 @@ main{
 .sidebar img{
   width:100%;
 }
-.category{
+.main-cat{
   position:absolute;
   top:0;
   left:0%;
@@ -277,12 +277,12 @@ footer{
   margin:45px 20px;
   padding-bottom:45px;
 }
-.category_title{
+.cat_title{
   height:200px;
   background:rgb(175, 20, 126);
   position:relative;
 }
-.category_title h1{
+.cat_title h1{
   color:white;
   font-size:60px;
   text-align: center;

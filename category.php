@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main>
-  <div class="category_title">
+  <div class="cat_title">
     <h1><?php single_cat_title(); ?></h1>
   </div>
 
@@ -20,7 +20,7 @@
                 <?php endif; ?>
 
                 <?php if (!is_category() && has_category()) : ?>
-                  <p class="category">
+                  <p class="main-cat">
                     <?php $postcat = get_the_category();
                     echo $postcat[0]->name;
                     ?>

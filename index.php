@@ -25,7 +25,7 @@
                 <?php endif; ?>
 
                 <?php if (!is_category() && has_category()) : ?>
-                  <p class="category">
+                  <p class="main-cat">
                     <?php $postcat = get_the_category();
                     echo $postcat[0]->name;
                     ?>
